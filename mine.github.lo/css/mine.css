@@ -1,0 +1,104 @@
+
+.cell:hover {
+    border: 2px solid gray;
+    background-color: #ccc;
+}
+
+.noMine {
+    color: rgba(0,0,0,0)!important;
+    background: url("../picture/dilei2.png") no-repeat !important;
+}
+.float {
+    border: 2px solid gray !important;
+    background-color: #ccc !important;
+}
+
+.Chess {
+    background: url("../picture/qizi2.png") no-repeat;
+}
+
+.bz {
+    background: url("../picture/bz.png") no-repeat !important;
+}
+
+.mine {
+    background: url("../picture/dilei.png") no-repeat;
+    border-color: gray gray gray gray !important;
+}
+
+.down {
+    font-size: 16px !important;
+    font-weight: 700;
+    border: 2px solid  #817c7c !important ;
+    background-color: #bababa !important;
+}
+
+.cell {
+    float: left;
+    border: 2px solid;
+    border-color: #fff #8f8b8b #8f8b8b #fff;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    font-size: 0px;
+    background-color: #ccc;
+    /*color: rgba(0,0,0,0);*/
+    line-height: 28px;
+    opacity: revert;
+    cursor: pointer;
+}
+
+.content {
+    user-select: none;
+}
+.row {
+    height: 29px;
+}
+#body {
+    text-align: center;
+}
+.gameOver {
+    display: inline-block;
+    border: 1px solid black;
+    width: 60px;
+    height: 20px;
+    font-size: 14px;
+    opacity : 0;
+    color: red;
+    border-radius:5px ;
+    background-color: white;
+}
+button {
+    margin: 3px 15px;
+    padding: 0  12px;
+}
+input {
+    height: 18px;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing :4px;
+}
+.thunder {
+    color: gray;
+    margin-top: 7px;
+    width: 80px;
+}
+.time {
+    background-repeat: no-repeat;
+    color: gray;
+    width: 80px;
+}
+.under {
+    background-color: blanchedalmond;
+    color: red;
+}
+.buttons {
+    background-color: blanchedalmond;
+}
+.div-content-under {
+    position: absolute;
+    float: left;
+    left: 50%;
+    transform: translateX(-50%);
+}
